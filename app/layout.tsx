@@ -4,7 +4,7 @@ import { Inter as FontSans } from "next/font/google";
 import { cn } from "@/lib/utils";
 import { ReactNode } from "react";
 import { Metadata } from "next";
-import Home from "./page";
+import Home from "./(root)/page";
 
 const fontSans = FontSans({
   subsets: ["latin"],
